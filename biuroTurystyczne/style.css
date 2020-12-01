@@ -1,0 +1,357 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: cambria;
+	background-color: #121212;
+}
+
+.container{
+	position: relative;
+	width: 65%;
+	margin: 0 auto;
+	height: 100%;
+}
+.banner{
+	width: 100%;
+	height: 100px;
+	background-color: #116466;
+	background-image: url('plane.png');
+	background-repeat: no-repeat;
+	background-size:650px 95px;
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-bottom: 5px;
+}
+.menu{
+	background-color: #D1F2EB;
+	text-align: center;
+	border-bottom: 1px solid #116466;
+	box-sizing: border-box;
+}
+.menulist{
+	padding: 0;
+	display: inline;
+	text-decoration-style: none;
+	margin: 0;
+}
+.menulist li{
+	margin-right: -2.5px;
+	margin-left: -2.5px;
+	display: inline-block;
+	padding: 15px 13px 15px 13px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #2C3E50;
+}
+.menulist li:hover{
+	background-color: #A2D9CE;
+}
+.menulist li:active{
+	color: #2C3E50;
+}
+main{
+	background-color: #A2D9CE;
+	position: relative;
+	box-sizing: border-box;
+	margin: 0 auto;
+    height: 81%;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 65%;
+	height: 30px;
+	background-color: #116466;
+	color: white;
+}
+footer div{
+	padding: 5px;
+	margin: auto;
+	text-align: center;
+}
+
+
+/* WYCIECZKI  */
+
+.mainleft,.mainright{
+	display: inline-block;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 25px;
+	word-wrap: break-word;
+}
+.mainleft{
+	background-color: #D1F2EB;
+	float: left;
+	width: 24.22%;
+}
+.mainright{
+	width: 75.78%;
+	background-color: #A2D9CE;
+	float: right;
+}
+.listaWycieczek{
+	list-style-type: square;
+}
+.listaWycieczek li{
+	padding: 10px;
+	font-style: italic;
+	color: #2C3E50;
+	font-size: 20px;
+}
+.listaWycieczek a{
+	text-decoration: none;
+	color: #2C3E50;
+}
+.mainleft hr{
+	border:none;
+	border-bottom: 2px solid #116466;
+}
+.center{
+	position: relative;
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+	width: 40%;
+	border: 2px solid #116466;
+	/*border-radius: 15px;*/
+	box-shadow: 8px 8px 8px #116466;
+	background-color: #D1F2EB;
+	color: #2C3E50;
+}
+.line:first-of-type{
+	font-size: 32px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.line{
+	font-size: 20px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+/* ZAPISY */
+.maindiv{
+	width: 1200px;
+	text-align: center;
+	margin: auto;
+}
+.zapisytytul{
+	padding-top: 50px;
+	font-size: 25px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: #2C3E50;
+}
+.tablezapisy{
+	margin-left: auto;
+	margin-right: auto;
+}
+.tablezapisy, .tdzapisy, .thzapisy{
+	color: #2C3E50;
+	box-shadow: 2px 2px 2px #116466;
+	background-color: #D1F2EB;
+	border-collapse: collapse;
+}
+.tablezapisy .tdzapisy{
+	padding: 8px 25px 8px 25px;
+	font-size: 17px;
+	vertical-align: middle;
+	border-bottom: 1px solid #116466;
+	box-shadow: 1px 1px 1px 1px #116466;
+}
+.tablezapisy .thzapisy{
+	border: 2px solid #116466;
+	padding: 12px 32px 12px 32px;
+	background-color: #116466;
+	color: white;
+	font-size: 19px;
+
+}
+/* Uczestnicy */
+
+.tableuczestnicy{
+	table-layout: auto;
+	width: 600px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tableuczestnicy, .tduczestnicy, .thuczestnicy{
+	box-shadow: 2px 2px 2px #116466;
+	border-collapse: collapse;
+
+}
+.thuczestnicy{
+	border: 2px solid #116466;
+	padding: 12px 15px 12px 15px;
+	background-color: #116466;
+	color: white;
+	font-size: 19px;
+}
+.tduczestnicy{
+	padding: 10px 15px 10px 15px;
+	text-align: center;
+	border-bottom: 1px solid #116466;
+	background-color: #D1F2EB;
+	box-shadow: 1px 1px 1px 1px #116466;
+}
+
+
+
+/* INNE */
+.line2{
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+	border: 2px solid #116466;
+	box-shadow: 2px 2px 2px #116466;
+	border-radius: 15px;
+	padding: 20px 30px 20px 30px;
+	background-color: #D1F2EB;
+	margin-bottom: 25px;
+}
+.line2 label{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 12px;
+}
+.tdzapisy input[type='button']{
+	margin: 5px;
+	padding: 5px 10px 5px 10px;
+	border: none;
+	border-radius: 0px;
+	background-color: white;
+	box-shadow: 2px 2px 2px #757575;
+	letter-spacing: 0.3px;
+}
+form{
+	display: table;
+	width: 500px;
+	margin: auto;
+	border-spacing: 0 10px;
+}
+legend{
+	font-size: 20px;
+	font-weight: bold;
+}
+fieldset{
+	border: 2px solid #116466;
+	box-shadow: 5px 5px 5px #116466;
+	padding: 40px;
+	background-color: #D1F2EB;
+}
+form .line2{
+	display: table-row;
+}
+form .line2 label{
+	float: left;
+}
+form .line2 input {
+	margin-left: 25px;
+	float: right;
+}
+form .line2 input[type='submit'] {
+	float: left;
+}
+form .line2:last-of-type{
+	width: 200px;
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+form .line2:last-of-type input{
+	padding: 10px 15px 10px 15px;
+}
+.formerror1{
+	margin: auto;
+	padding: 20px;
+	width: 25%;
+	border: 5px #116466 dashed;
+	background-color: #D1F2EB;
+}
+.formerror{
+	color: #86130a;
+	font-size: 18px;
+	margin-bottom: 7px;
+	margin-top:7px;
+}
+.wyniklogin{
+	padding-top: 50px;
+}
+
+/* LOGIN */
+.rejestracjaform{
+}
+.rejestracjaform fieldset{
+	/*border-radius: 15px;*/
+}
+.line3, .line3first{
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+.line3first{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+
+}
+form .line3{
+	display: table-row;
+}
+form .line3 label{
+	float: left;
+}
+.line3 input[type='text'], input[type='number'],input[type='password'],input[type='date']{
+	/*position: absolute;*/
+	float: right;
+	right: 100px;
+	margin-left: 10px;
+	padding: 5px 10px 5px 10px;
+	border: none;
+	border-radius: 8px;
+	background-color: #FEFEFE;
+	box-shadow: 2px 2px 2px #757575;
+	letter-spacing: 0.3px;
+	margin-left: 30px;
+}
+input[type='date']{
+	padding: 3px 30px 3px 30px;
+
+}
+.line3 input[type='submit'],input[type='button']{
+	border: none;
+	border-radius: 8px;
+	background-color: #FEFEFE;
+	box-shadow: 2px 2px 2px #757575;
+	letter-spacing: 0.3px;
+	padding: 6px 12px 6px 12px;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.line3:last-of-type{
+	margin-top: 10px;
+	display: block;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	font-size: 14px;
+}
+#error{
+	display: block;
+	text-align: center;
+	color: #86130a;
+	font-size: 15px;
+	margin-top: -5px;
+}
